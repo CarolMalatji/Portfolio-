@@ -3,220 +3,249 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Malatji Selina Carol | Portfolio</title>
+    <title>Malatji Selina Carol | Software Developer</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header Navigation -->
+    <!-- Header / Navigation -->
     <header>
-        <div class="nav-container">
-            <div class="logo">
-                <div class="logo-box">MS</div>
-                <div class="logo-text">
-                    <span class="main-name">MALATJI</span>
-                    <span class="sub-name">SELINA CAROL</span>
-                </div>
+        <nav class="container">
+            <div class="logo">LOGO</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#" class="btn btn-outline">Download CV</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <a href="#" class="btn btn-outline"><i class="fas fa-download"></i> DOWNLOAD CV</a>
-        </div>
+        </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <p class="greeting">HELLO, I'M</p>
-            <h1>Malatji <span class="gold-text">Selina Carol</span></h1>
-            <p class="subtitle">ASPIRING SOFTWARE DEVELOPER</p>
-            <p class="bio-intro">I am an aspiring software developer who is passionate about building innovative and user-friendly applications. I am new to the industry and continuously learning new skills to grow and contribute to meaningful projects.</p>
+    <main>
+        <!-- 01. Home Page Section -->
+        <section id="home" class="hero container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <!-- Placeholder for profile image -->
+                    <div class="img-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h1>Malatji Selina Carol</h1>
+                    <h3>Software Developer</h3>
+                    <p>I am a passionate and dedicated Software Development student who has just been introduced into the tech industry. I am continuously learning new skills and technologies to build innovative solutions and grow as a professional developer.</p>
+                    <div class="hero-btns">
+                        <a href="#about" class="btn btn-primary">About Me</a>
+                        <a href="#projects" class="btn btn-secondary">View My Projects</a>
+                    </div>
+                </div>
+            </div>
+            <div class="traits-grid">
+                <div class="trait-card">
+                    <i class="fas fa-code"></i>
+                    <h4>Clean Code</h4>
+                    <p>Writing maintainable and efficient code.</p>
+                </div>
+                <div class="trait-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h4>Continuous Learning</h4>
+                    <p>Always learning new things and improving my skills.</p>
+                </div>
+                <div class="trait-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h4>Problem Solver</h4>
+                    <p>Solving problems with creative and effective solutions.</p>
+                </div>
+                <div class="trait-card">
+                    <i class="fas fa-users"></i>
+                    <h4>Team Player</h4>
+                    <p>Collaborating and working in teams to achieve goals.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 02. About Page Section -->
+        <section id="about" class="about container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-flex">
+                <div class="about-image">
+                    <div class="img-placeholder"></div>
+                </div>
+                <div class="about-text">
+                    <p>I am 24 years old and currently studying Software Development through the Learning Development in the Information Landscape (LDIL) programme at the University of Limpopo.</p>
+                    <p>As an aspiring software developer, I enjoy learning about programming, mobile application development, and database management. Although I am still new to the software development industry, I am committed to improving my technical skills by working on practical projects and continuously learning from new experiences.</p>
+                    <p>I believe that every project is an opportunity to grow, and I am excited to build solutions that can make a positive impact.</p>
+                </div>
+            </div>
+            <div class="about-info-grid">
+                <div class="info-col">
+                    <h4>Education</h4>
+                    <ul>
+                        <li><i class="fas fa-university"></i> University of Limpopo</li>
+                        <li><i class="fas fa-book"></i> LDIL Programme</li>
+                        <li><i class="fas fa-certificate"></i> Qualification: Software Development</li>
+                        <li><i class="fas fa-calendar"></i> Year of Study: 2026</li>
+                    </ul>
+                </div>
+                <div class="info-col">
+                    <h4>Career Goals</h4>
+                    <p>My goal is to become a skilled and innovative software developer who creates reliable and user-friendly applications that solve real-world problems. I aim to strengthen my expertise in software development, mobile application development, and database technologies while gaining valuable industry experience.</p>
+                </div>
+                <div class="info-col">
+                    <h4>Interests</h4>
+                    <ul>
+                        <li>Learning new technologies</li>
+                        <li>Building mobile applications</li>
+                        <li>Problem solving</li>
+                        <li>Reading tech articles</li>
+                        <li>Helping others learn</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 03. Skills Page Section -->
+        <section id="skills" class="skills container">
+            <h2 class="section-title">My Skills</h2>
             
-            <div class="hero-btns">
-                <a href="#" class="btn btn-filled"><i class="fas fa-download"></i> DOWNLOAD CV</a>
-                <a href="#projects" class="btn btn-outline-gold">VIEW MY PROJECTS &rarr;</a>
+            <h3>Technical Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-cuttlefish"></i>
+                    <p>C#</p>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                    <span>80%</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-layer-group"></i>
+                    <p>.NET MAUI</p>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    <span>85%</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <p>SQL</p>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                    <span>80%</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-github"></i>
+                    <p>GitHub</p>
+                    <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                    <span>75%</span>
+                </div>
             </div>
 
-            <div class="social-links">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="far fa-envelope"></i></a>
+            <h3>Soft Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-users"></i>
+                    <p>Teamwork</p>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    <span>85%</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-comments"></i>
+                    <p>Communication</p>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                    <span>80%</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <p>Problem Solving</p>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    <span>85%</span>
+                </div>
             </div>
-        </div>
-        <div class="hero-image">
-            <div class="image-circle">
-                <!-- Add your photo here <img src="profile.jpg" alt="Profile"> -->
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About & Education Section -->
-    <section class="info-section">
-        <div class="container split-view">
-            <!-- About Me -->
-            <div id="about" class="about-col">
-                <h2 class="section-title"><i class="far fa-user"></i> ABOUT ME</h2>
-                <p>Hello! I'm Malatji Selina Carol, an aspiring Software Developer with a passion for learning and building innovative digital solutions.</p>
-                <p><strong>I have studied Software Development at the University of Limpopo (LDIL)</strong> for 10 months, where I am gaining hands-on experience in programming and software development.</p>
-                <p>Before transitioning into technology, I completed a <strong>Bachelor of Arts in Criminology and Psychology</strong> at the University of Limpopo and graduated in 2024.</p>
-                <p>As someone new to the software development industry, I am excited to continue learning, gaining practical experience, and contributing to meaningful projects.</p>
+        <!-- 04. Projects Page Section -->
+        <section id="projects" class="projects container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img-placeholder"></div>
+                    <h4>Weather App</h4>
+                    <p>A weather application that shows the current weather, forecast, and location details.</p>
+                    <small>Tech: C#, .NET MAUI, API</small>
+                    <a href="#" class="btn btn-outline">View Project</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-placeholder"></div>
+                    <h4>Shopping App</h4>
+                    <p>A shopping application that allows users to browse products, add to cart and place orders.</p>
+                    <small>Tech: C#, .NET MAUI, SQL</small>
+                    <a href="#" class="btn btn-outline">View Project</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-placeholder"></div>
+                    <h4>Farm Management App</h4>
+                    <p>A farm management system that helps manage inventory, stock and farm resources.</p>
+                    <small>Tech: C#, .NET MAUI, SQL</small>
+                    <a href="#" class="btn btn-outline">View Project</a>
+                </div>
             </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-secondary">View More Projects</a>
+            </div>
+        </section>
 
-            <!-- Education Journey -->
-            <div id="education" class="edu-col">
-                <h2 class="section-title"><i class="fas fa-graduation-cap"></i> MY EDUCATION JOURNEY</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="dot"></div>
-                        <span class="year">2026 - Present</span>
-                        <h3>Software Development (LDIL)</h3>
-                        <p>University of Limpopo</p>
-                        <p class="small">Currently studying Software Development through LDIL programme (10 months completed).</p>
+        <!-- 05. Contact Page Section -->
+        <section id="contact" class="contact container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <form id="portfolio-form">
+                        <div class="input-group">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="input-group">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="input-group">
+                            <i class="fas fa-tag"></i>
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="input-group">
+                            <i class="fas fa-pencil-alt"></i>
+                            <textarea rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-paper-plane"></i> Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h4>Get in Touch</h4>
+                    <p>I'd love to hear from you! Feel free to reach out for opportunities or just a friendly hello.</p>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-envelope"></i> malatjicarro@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> (Add your phone number)</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Polokwane, Limpopo, South Africa</li>
+                    </ul>
+                    <h4>Connect with me</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
                     </div>
-                    <div class="timeline-item">
-                        <div class="dot"></div>
-                        <span class="year">2024</span>
-                        <h3>Bachelor of Arts in Criminology & Psychology</h3>
-                        <p>University of Limpopo</p>
-                        <p class="small">Graduated in 2024</p>
-                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills-section">
-        <h2 class="center-title">MY SKILLS</h2>
-        <div class="skills-container">
-            <div class="skill-group">
-                <h3>TECHNICAL SKILLS</h3>
-                <div class="skill-grid">
-                    <div class="skill-box">C#</div>
-                    <div class="skill-box">.NET MAUI</div>
-                    <div class="skill-box">SQL</div>
-                    <div class="skill-box">GitHub</div>
-                </div>
-            </div>
-            <div class="skill-group">
-                <h3>PROFESSIONAL SKILLS</h3>
-                <div class="skill-grid">
-                    <div class="skill-box">Teamwork</div>
-                    <div class="skill-box">Communication</div>
-                    <div class="skill-box">Problem Solving</div>
-                    <div class="skill-box">Critical Thinking</div>
-                    <div class="skill-box">Time Management</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section">
-        <h2 class="center-title">MY PROJECTS</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <h3>Weather App</h3>
-                <p>A weather application that shows current weather, forecast, and location details.</p>
-                <p class="tech">Tech: C#, .NET MAUI, API</p>
-                <a href="#" class="github-link"><i class="fab fa-github"></i> VIEW ON GITHUB</a>
-            </div>
-            <div class="project-card">
-                <h3>Shopping App</h3>
-                <p>An application that allows users to browse products, add to cart and place orders.</p>
-                <p class="tech">Tech: C#, .NET MAUI, SQL</p>
-                <a href="#" class="github-link"><i class="fab fa-github"></i> VIEW ON GITHUB</a>
-            </div>
-            <div class="project-card">
-                <h3>Farm Management App</h3>
-                <p>A farm management system that helps manage inventory, stock and farm resources.</p>
-                <p class="tech">Tech: C#, .NET MAUI, SQL</p>
-                <a href="#" class="github-link"><i class="fab fa-github"></i> VIEW ON GITHUB</a>
-            </div>
-            <div class="project-card coming-soon">
-                <h3>More Projects Coming Soon</h3>
-                <p>More amazing projects are on the way. Stay tuned!</p>
-                <p class="tech">Tech: To be updated</p>
-                <a href="#" class="github-link"><i class="fab fa-github"></i> VIEW ON GITHUB</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Social Links Section -->
-    <section class="social-connect">
-        <div class="social-card">
-            <i class="fab fa-github"></i>
-            <div>
-                <h4>GitHub</h4>
-                <p>CarolMalatji</p>
-                <a href="#" class="mini-btn">VISIT MY GITHUB</a>
-            </div>
-        </div>
-        <div class="social-card">
-            <i class="fab fa-linkedin"></i>
-            <div>
-                <h4>LinkedIn</h4>
-                <p>Malatji Selina Carol</p>
-                <a href="#" class="mini-btn">VISIT MY LINKEDIN</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <h2 class="center-title">CONTACT ME</h2>
-        <div class="contact-container">
-            <div class="contact-info">
-                <div class="info-item">
-                    <i class="fas fa-envelope"></i>
-                    <div><p><strong>Email</strong></p><p>malatjicarro@gmail.com</p></div>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-phone"></i>
-                    <div><p><strong>Phone</strong></p><p>079 158 2790 / 083 354 8668</p></div>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <div><p><strong>Location</strong></p><p>Daveyton, Gauteng, South Africa</p></div>
-                </div>
-            </div>
-
-            <form class="contact-form">
-                <div class="form-row">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your Email">
-                </div>
-                <input type="text" placeholder="Subject">
-                <textarea placeholder="Your Message" rows="4"></textarea>
-                <button type="submit" class="btn btn-filled send-btn"><i class="fas fa-paper-plane"></i> SEND MESSAGE</button>
-            </form>
-
-            <div class="quote-box">
-                <i class="fas fa-quote-left"></i>
-                <p>I am eager to learn, grow and contribute to innovative software solutions that make a difference.</p>
-                <i class="fas fa-quote-right"></i>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
-        <div class="footer-socials">
-            <i class="fab fa-github"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="far fa-envelope"></i>
-        </div>
         <p>&copy; 2026 Malatji Selina Carol. All Rights Reserved.</p>
-        <p>Designed & Built with <span class="heart">❤</span> by Malatji Selina Carol</p>
     </footer>
 
     <script src="script.js"></script>
